@@ -1,4 +1,5 @@
-<?php require 'entete.html';?>
+<?php require 'entete.html';
+include 'navbar.html';?>
 <section>
 <div class="container" style="margin-top:30px">
   <div class="row">
@@ -57,7 +58,7 @@
 </section>
    
  <!-- FOOTER -->
- <?php require 'footer.html';?>
+ <?php require 'piedDePage.html';?>
 </body>
 </html>
 

@@ -1,4 +1,8 @@
-<?php require 'entete.html';?>
+<img src="images/Bienvenue.jpg" width="100%" height="600">
+<?php 
+require 'entete.html';
+include 'navbar.html';
+?>
 <section>
 <div class="container" style="margin-top:30px">
   <div class="row">
@@ -107,7 +111,7 @@
  </div>
 </div>
 </section>
-<?php require 'footer.html';?>
+<?php require 'piedDePage.html';?>
  
 </body>
 </html>
