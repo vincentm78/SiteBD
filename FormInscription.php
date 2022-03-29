@@ -14,7 +14,7 @@ include 'navbar.html';?>
               <ul class="nav nav-pills flex-column">
                     <li class="nav-item">
                             <a class="nav-link active" href="https://www.w3schools.com/bootstrap4">La référence Bootstrap4</a>
-                           
+                          
                           </li>
                           <li class="nav-item">
                             <a class="nav-link"  href="https://www.jquery-az.com/6-templates-bootstrap-4-cards-online-examples/">Exemple de cards</a>
@@ -28,7 +28,7 @@ include 'navbar.html';?>
             </div>
         
             <div class="col-sm-8">
-                <form>
+                <form action="traitInscription.php" method="post">
                 <div class="form-group">
                     <label for="NameDemo">Your Name:</label>
                     <input type="text" class="form-control" id="NameDemo" aria-describedby="nameHelp" placeholder="Enter Full Name">

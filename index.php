@@ -1,4 +1,4 @@
-<img src="images/Bienvenue.jpg" width="100%" height="600">
+<img src="images/Bienvenue.jpg" width="100%" height="100%">
 <?php 
 require 'entete.html';
 include 'navbar.html';
