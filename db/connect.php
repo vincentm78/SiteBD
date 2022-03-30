@@ -1,6 +1,6 @@
 <?php                            
 try {
-    $connect_str = "mysql:host=localhost;dbname=bdprojetalbum"; // chaine de connexion
+    $connect_str = "mysql:host=localhost;dbname=bdprojetalbum"; 
     $connect_user = "root";
     $connect_pass = "";
     $options[PDO::ATTR_ERRMODE]= PDO::ERRMODE_EXCEPTION; 
@@ -8,7 +8,7 @@ try {
     $cnx = new PDO($connect_str, $connect_user, $connect_pass , $options);
     $cnx->exec("set names utf8");  // pour les caractères spéciaux(encodage utf8)
 }
-catch(PDOException $e) {   // gestion des erreurs
+catch(PDOException $e) {   
     echo "ERREUR PDO " . $e->getMessage();
  }
  ?>
